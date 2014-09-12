@@ -1,0 +1,17 @@
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\Traderdata.Amibroker.DataConnector.UI.ConfigureForm.resources
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\Traderdata.Amibroker.DataConnector.UI.frmCadastro.resources
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\DataConnector.csproj.GenerateResource.Cache
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\ABDataConnector.dll.config
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\ABDataConnector.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\ABDataConnector.pdb
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\AmiBroker.PlugInHost.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\DataFeedDotNetConnect.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\ddfplus.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\FM.WebSync.Core.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\FM.WebSync.Core.Josn.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\DataFeedDotNetConnect.pdb
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\ABDataConnector.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\ABDataConnector.pdb
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\bin\Debug\STech.dll
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\Traderdata.Amibroker.DataConnector.UI.frmDownloadMarketdata.resources
+C:\Backup\Projetos2012\CLIENT\ABCONNECTOR\DataConnector\obj\Debug\DataConnector.csprojResolveAssemblyReference.cache

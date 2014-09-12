@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSginalConnector", "eSginalConnector\eSginalConnector.csproj", "{8EF6817F-5D79-437E-B265-09242BA8356C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABConnector", "ABCONNECTOR\ABConnector.csproj", "{335819D1-5229-4AC1-B132-9FC54DEAB94D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Debug|x86.ActiveCfg = Debug|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Debug|x86.Build.0 = Debug|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Release|Any CPU.ActiveCfg = Release|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Release|x86.ActiveCfg = Release|x86
+		{8EF6817F-5D79-437E-B265-09242BA8356C}.Release|x86.Build.0 = Release|x86
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{335819D1-5229-4AC1-B132-9FC54DEAB94D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

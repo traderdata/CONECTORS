@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FM.WebSync.Core.Json</name>
+    </assembly>
+    <members>
+        <member name="T:FM.WebSync.Core.JsonExtensions">
+            <summary>
+            Collection of static extension methods that make it easier to serialize/deserialize
+            JSON values.
+            </summary>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetValue``1(FM.WebSync.Core.Extensions,System.String)">
+            <summary>
+            Deserializes and returns a value serialized in the extensions.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the extensions.</typeparam>
+            <param name="extensions">The object to extend.</param>
+            <param name="name">The name used to retrieve the serialized value.</param>
+            <returns>The deserialized value.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetValue``1(FM.WebSync.Core.Extensions,System.String,``0@)">
+            <summary>
+            Deserializes and returns a value serialized in the extensions.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the extensions.</typeparam>
+            <param name="extensions">The object to extend.</param>
+            <param name="name">The name used to retrieve the serialized value.</param>
+            <param name="value">The deserialized value.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetValue``1(FM.WebSync.Core.Extensions,System.String,``0)">
+            <summary>
+            Serializes and stores a value in the extensions.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="extensions">The object to extend.</param>
+            <param name="name">The name used to later retrieve the value.</param>
+            <param name="value">The value to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetExtensionValue``1(FM.WebSync.Core.Extensible,System.String)">
+            <summary>
+            Deserializes and returns a value serialized in the extensions.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the extensions.</typeparam>
+            <param name="extensible">The object to extend.</param>
+            <param name="name">The name used to retrieve the serialized value.</param>
+            <returns>The deserialized value.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetExtensionValue``1(FM.WebSync.Core.Extensible,System.String,``0@)">
+            <summary>
+            Deserializes and returns a value serialized in the extensions.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the extensions.</typeparam>
+            <param name="extensible">The object to extend.</param>
+            <param name="name">The name used to retrieve the serialized value.</param>
+            <param name="value">The deserialized value.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetExtensionValue``1(FM.WebSync.Core.Extensible,System.String,``0)">
+            <summary>
+            Serializes and stores a value in the extensions.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="extensible">The object to extend.</param>
+            <param name="name">The name used to later retrieve the value.</param>
+            <param name="value">The value to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetMeta``1(FM.WebSync.Core.Extensible)">
+            <summary>
+            Deserializes and returns an object serialized in MetaJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in MetaJson.</typeparam>
+            <param name="extensible">The object to extend.</param>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetMeta``1(FM.WebSync.Core.Extensible,``0@)">
+            <summary>
+            Deserializes and returns an object serialized in MetaJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in MetaJson.</typeparam>
+            <param name="extensible">The object to extend.</param>
+            <param name="value">The deserialized object.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetMeta``1(FM.WebSync.Core.Extensible,``0)">
+            <summary>
+            Serializes and stores an object in MetaJson.
+            </summary>
+            <typeparam name="T">The type of the object.</typeparam>
+            <param name="extensible">The object to extend.</param>
+            <param name="meta">The object to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetData``1(FM.WebSync.Core.BaseMessage)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="baseMessage">The object to extend.</param>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetData``1(FM.WebSync.Core.BaseMessage,``0@)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="baseMessage">The object to extend.</param>
+            <param name="value">The deserialized object.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetData``1(FM.WebSync.Core.BaseMessage,``0)">
+            <summary>
+            Serializes and stores an object in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object.</typeparam>
+            <param name="baseMessage">The object to extend.</param>
+            <param name="data">The object to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetData``1(FM.WebSync.Core.PublishArgs)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="publishArgs">The object to extend.</param>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetData``1(FM.WebSync.Core.PublishArgs,``0@)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="publishArgs">The object to extend.</param>
+            <param name="value">The deserialized object.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetData``1(FM.WebSync.Core.PublishArgs,``0)">
+            <summary>
+            Serializes and stores an object in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object.</typeparam>
+            <param name="publishArgs">The object to extend.</param>
+            <param name="data">The object to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetData``1(FM.WebSync.Core.PublishSuccessArgs)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="publishSuccessArgs">The object to extend.</param>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetData``1(FM.WebSync.Core.PublishSuccessArgs,``0@)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="publishSuccessArgs">The object to extend.</param>
+            <param name="value">The deserialized object.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetData``1(FM.WebSync.Core.PublishSuccessArgs,``0)">
+            <summary>
+            Serializes and stores an object in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object.</typeparam>
+            <param name="publishSuccessArgs">The object to extend.</param>
+            <param name="data">The object to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetData``1(FM.WebSync.Core.ReceiveArgs)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="receiveArgs">The object to extend.</param>
+            <returns>The deserialized object.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetData``1(FM.WebSync.Core.ReceiveArgs,``0@)">
+            <summary>
+            Deserializes and returns an object serialized in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object serialized in DataJson.</typeparam>
+            <param name="receiveArgs">The object to extend.</param>
+            <param name="value">The deserialized object.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetData``1(FM.WebSync.Core.ReceiveArgs,``0)">
+            <summary>
+            Serializes and stores an object in DataJson.
+            </summary>
+            <typeparam name="T">The type of the object.</typeparam>
+            <param name="receiveArgs">The object to extend.</param>
+            <param name="data">The object to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetValue``1(FM.WebSync.Core.Record)">
+            <summary>
+            Deserializes and returns a value serialized in ValueJson.
+            </summary>
+            <typeparam name="T">The type of the value serialized in ValueJson.</typeparam>
+            <param name="record">The object to extend.</param>
+            <returns>The deserialized value.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetValue``1(FM.WebSync.Core.Record,``0@)">
+            <summary>
+            Deserializes and returns a value serialized in ValueJson.
+            </summary>
+            <typeparam name="T">The type of the value serialized in ValueJson.</typeparam>
+            <param name="record">The object to extend.</param>
+            <param name="value">The deserialized value.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.SetValue``1(FM.WebSync.Core.Record,``0)">
+            <summary>
+            Serializes and stores a value in ValueJson.
+            </summary>
+            <typeparam name="T">The type of the value.</typeparam>
+            <param name="record">The object to extend.</param>
+            <param name="value">The value to serialize and store.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetBoundValue``1(FM.WebSync.Core.Client,System.String)">
+            <summary>
+            Deserializes and returns a value serialized in the client's bound records.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the client's bound records.</typeparam>
+            <param name="client">The object to extend.</param>
+            <param name="key">The key used to retrieve the serialized value.</param>
+            <returns>The deserialized value in the bound record.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetBoundValue``1(FM.WebSync.Core.Client,System.String,``0@)">
+            <summary>
+            Deserializes and returns a value serialized in the client's bound records.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the client's bound records.</typeparam>
+            <param name="client">The object to extend.</param>
+            <param name="key">The key used to retrieve the serialized value.</param>
+            <param name="value">The deserialized value in the bound record.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetBoundValue``1(FM.WebSync.Core.SubscribedClient,System.String)">
+            <summary>
+            Deserializes and returns a value serialized in the subscribed client's bound records.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the subscribed client's bound records.</typeparam>
+            <param name="subscribedClient">The object to extend.</param>
+            <param name="key">The key used to retrieve the serialized value.</param>
+            <returns>The deserialized value in the bound record.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetBoundValue``1(FM.WebSync.Core.SubscribedClient,System.String,``0@)">
+            <summary>
+            Deserializes and returns a value serialized in the subscribed client's bound records.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the subscribed client's bound records.</typeparam>
+            <param name="subscribedClient">The object to extend.</param>
+            <param name="key">The key used to retrieve the serialized value.</param>
+            <param name="value">The deserialized value in the bound record.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.GetBoundValue``1(FM.WebSync.Core.PublishingClient,System.String)">
+            <summary>
+            Deserializes and returns a value serialized in the publishing client's bound records.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the publishing client's bound records.</typeparam>
+            <param name="publishingClient">The object to extend.</param>
+            <param name="key">The key used to retrieve the serialized value.</param>
+            <returns>The deserialized value in the bound record.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.TryGetBoundValue``1(FM.WebSync.Core.PublishingClient,System.String,``0@)">
+            <summary>
+            Deserializes and returns a value serialized in the publishing client's bound records.
+            </summary>
+            <typeparam name="T">The type of the value serialized in the publishing client's bound records.</typeparam>
+            <param name="publishingClient">The object to extend.</param>
+            <param name="key">The key used to retrieve the serialized value.</param>
+            <param name="value">The deserialized value in the bound record.</param>
+            <returns><c>true</c> if the deserialization was successful; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JsonExtensions.Publish``1(FM.WebSync.Core.Publisher,System.String,``0)">
+            <summary>
+            Synchronously sends a single publication.
+            </summary>
+            <remarks>
+            This method always executes synchronously and returns the
+            <see cref="T:FM.WebSync.Core.Publication"/> it automatically creates.
+            </remarks>
+            <typeparam name="T">The type of the data to publish.</typeparam>
+            <param name="publisher">The object to extend.</param>
+            <param name="channel">The channel to which the data should be published.</param>
+            <param name="data">The data to publish.</param>
+            <returns>The sent publication.</returns>
+        </member>
+        <member name="T:FM.WebSync.Core.JSON">
+            <summary>
+            Contains methods for serializing/deserializing DataContract-decorated classes.
+            </summary>
+        </member>
+        <member name="M:FM.WebSync.Core.JSON.Serialize(System.Object)">
+            <summary>
+            Serializes an object marked with appropriate DataContract/DataMember attributes to a JSON string.
+            </summary>
+            <param name="o">The object to serialize</param>
+            <returns>The JSON representation of the object</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JSON.Serialize``1(``0)">
+            <summary>
+            Serializes an object marked with appropriate DataContract/DataMember attributes to a JSON string.
+            </summary>
+            <typeparam name="T">The type of item to serialize.</typeparam>
+            <param name="item">The item to serialize.</param>
+            <returns>The JSON representation of the object.</returns>
+        </member>
+        <member name="M:FM.WebSync.Core.JSON.Deserialize``1(System.String)">
+            <summary>
+            Deserializes a JSON string to an object marked with appropriate DataContract/DataMember attributes.
+            </summary>
+            <param name="json">The JSON string</param>
+            <returns>The deserialized object</returns>
+        </member>
+    </members>
+</doc>
