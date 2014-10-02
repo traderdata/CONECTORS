@@ -163,11 +163,11 @@ namespace Traderdata.Client.eSginalConnector
                 //checando se é nacional
                 if (IsBMF(ativo) && StaticData.UserHasBMFAccess) 
                 {
-                    return MarketData.GetDailyHistory(ativo, Int32.MaxValue);
+                    return MarketData.GetDailyHistory(ativo, Int32.MaxValue, false);
                 }
                 else if (IsBovespa(ativo) && StaticData.UserHasBovespaAccess)
                 {
-                    return MarketData.GetDailyHistory(ativo, Int32.MaxValue);
+                    return MarketData.GetDailyHistory(ativo, Int32.MaxValue,false);
                 }
 
                 return new List<CotacaoDTO>();
@@ -190,11 +190,11 @@ namespace Traderdata.Client.eSginalConnector
                 //checando se é nacional
                 if (IsBMF(ativo) && StaticData.UserHasBMFAccess)
                 {
-                    return MarketData.GetIntradayHistory(ativo,  dtFrom, 1, false);
+                    return MarketData.GetIntradayHistory(ativo,  dtFrom, 1, false,false, false);
                 }
                 else if (IsBovespa(ativo) && StaticData.UserHasBovespaAccess)
                 {
-                    return MarketData.GetIntradayHistory(ativo,  dtFrom, 1, false);
+                    return MarketData.GetIntradayHistory(ativo,  dtFrom, 1, false, false, false);
                 }
 
                 return new List<CotacaoDTO>();

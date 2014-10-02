@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDWinFormAPI.dll" size="61952">
-      <assemblyIdentity name="MDWinFormAPI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDWinFormAPI.dll" size="63488">
+      <assemblyIdentity name="MDWinFormAPI" version="1.0.0.0" publicKeyToken="DCC9672BB9CB7A93" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aUt75Dm6v6XECyuwZzNIn2HP3IU=</dsig:DigestValue>
+        <dsig:DigestValue>/W6FN6KdRhHcei0NSU9VIYDyJQA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>K4gpOIUtFbEFvICe9qdmkfNTfQk=</dsig:DigestValue>
+        <dsig:DigestValue>C97j+YFhFarze6TTyqolg7F6IIc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -29,7 +29,7 @@
     <ProductName>Traderdata eSignal Connector</ProductName>
     <PublisherName>Traderdata</PublisherName>
     <SuiteName>Traderdata</SuiteName>
-    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -71,8 +71,9 @@
     <ApplicationIcon>ICONE_TRADERDATA_32x32.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MDWinFormAPI">
-      <HintPath>..\..\..\..\Projetos2014\CORE-SERVICES\API\bin\Debug\MDWinFormAPI.dll</HintPath>
+    <Reference Include="MDWinFormAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CORE-SERVICES\API\bin\Debug\MDWinFormAPI.dll</HintPath>
     </Reference>
     <Reference Include="NDde">
       <HintPath>..\WinUI\bin\Debug\NDde.dll</HintPath>
